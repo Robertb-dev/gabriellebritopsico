@@ -213,7 +213,8 @@ ul{
 }
 
 
-/*Area de @media*/
+/*Area de @media768px*/
+
 @media(max-width: 768px){
   #banner{
     width: 100%;
@@ -221,16 +222,10 @@ ul{
     background-color:var(--orange-dark-color);
   }
 
-  #servicos{
-    margin-top: 2rem;
-    height: 44rem;
-
-  }
-
-  #projetoinclusao{
-    height: 100rem;
-    margin-top: 2rem;
-    
+  .video{
+    width: 200px;
+    height: 355.84px;
+    border: solid 2px #001423;
   }
 
 }
@@ -246,7 +241,7 @@ ul{
 
   #servicos{
     margin-top: 2rem;
-    height: 44rem;
+    height: 46rem;
 
   }
 
