@@ -116,7 +116,7 @@ a{
 }
 
 .textobanner{
-  color:black;
+  color: var(--bege-color);
   margin-top: 8rem;
   font-size: 1.8rem;
 }
@@ -220,12 +220,25 @@ ul{
     height: 76rem;
     background-color:var(--orange-dark-color);
   }
+
+  #servicos{
+    margin-top: 2rem;
+    height: 44rem;
+
+  }
+
+  #projetoinclusao{
+    height: 100rem;
+    margin-top: 2rem;
+    
+  }
+
 }
 
 @media(max-width:992px){
   #umpoucodemim{
     margin-top: 2rem;
-    background-color: var(--orange-marinemos-color);
+   
     height: 45rem;
     color:var(--white-color);
   
@@ -234,7 +247,7 @@ ul{
   #servicos{
     margin-top: 2rem;
     height: 44rem;
-    background-color: var(--orange-marinemos-color);
+
   }
 
   #projetoinclusao{
